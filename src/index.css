@@ -1,0 +1,66 @@
+:root {
+  --accent: #67e8f9;
+  --accent-dim: rgba(103, 232, 249, 0.42);
+  --accent-soft: rgba(103, 232, 249, 0.14);
+  --accent-glow: rgba(103, 232, 249, 0.38);
+  --secondary: #f472b6;
+  --line: rgba(210, 232, 255, 0.16);
+  --text: #c7d2ee;
+  --text-muted: #8290ad;
+  --text-strong: #f8fbff;
+  font-family:
+    Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  color: var(--text);
+  background: #060914;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root[data-theme='sakura'] {
+  --accent: #ff8fb7;
+  --accent-dim: rgba(255, 143, 183, 0.42);
+  --accent-soft: rgba(255, 143, 183, 0.14);
+  --accent-glow: rgba(255, 143, 183, 0.4);
+  --secondary: #ffe066;
+}
+
+:root[data-theme='cyber'] {
+  --accent: #38ffb7;
+  --accent-dim: rgba(56, 255, 183, 0.42);
+  --accent-soft: rgba(56, 255, 183, 0.14);
+  --accent-glow: rgba(56, 255, 183, 0.38);
+  --secondary: #8b5cf6;
+}
+
+:root[data-theme='mint'] {
+  --accent: #7ee787;
+  --accent-dim: rgba(126, 231, 135, 0.42);
+  --accent-soft: rgba(126, 231, 135, 0.14);
+  --accent-glow: rgba(126, 231, 135, 0.38);
+  --secondary: #4fd1c5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+}
+
+button,
+input,
+textarea,
+select {
+  border-radius: 8px;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
